@@ -1,0 +1,12 @@
+export { default as Home } from './home';
+export { default as NewArrivals } from './new-arrivals';
+export { default as Clothing } from './clothing';
+export { default as Accessories } from './accessories';
+export { default as Contact } from './contact';
+export { default as About } from './about';
+export { default as LogIn } from './log-in';
+export { default as SignUp } from './sign-up';
+export { default as Sales } from './sales';
+export { default as Cart } from './cart';
+export { default as Favorites } from './favorites';
+export { default as Profile } from './profile';
