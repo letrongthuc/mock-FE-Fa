@@ -29,7 +29,7 @@ const publicRoutes = [
   { path: '/sales', element: <Sales />, layout: DefaultLayout },
   { path: '/products/:name', element: <ItemDetail />, layout: DefaultLayout },
   { path: '/:category/:productName', element: <CategoryProductList />, layout: DefaultLayout },
-  { path: '/verify-email', element: <VerifyEmail />, layout: DefaultLayout },
+  { path: '/user/verify-email', element: <VerifyEmail />, layout: DefaultLayout }, // ✅ Đúng URL từ email
 ];
 
 const privateRoutes = [
