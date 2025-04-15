@@ -15,6 +15,7 @@ import {
 import { DefaultLayout } from '../../layouts/user';
 import ItemDetail from '../../components/item-detail';
 import CategoryProductList from '../../components/category-product-list';
+import VerifyEmail from '../../pages/user/verify-email';
 
 const publicRoutes = [
   { path: '/', element: <Home />, layout: DefaultLayout },
@@ -28,6 +29,7 @@ const publicRoutes = [
   { path: '/sales', element: <Sales />, layout: DefaultLayout },
   { path: '/products/:name', element: <ItemDetail />, layout: DefaultLayout },
   { path: '/:category/:productName', element: <CategoryProductList />, layout: DefaultLayout },
+  { path: '/verify-email', element: <VerifyEmail />, layout: DefaultLayout },
 ];
 
 const privateRoutes = [
