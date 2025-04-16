@@ -10,4 +10,4 @@ export { default as Sales } from './sales';
 export { default as Cart } from './cart';
 export { default as Favorites } from './favorites';
 export { default as Profile } from './profile';
-export { default as VerifyEmail } from './verify-email'; 
+export { default as VerifyEmail } from '../verify-email'; 

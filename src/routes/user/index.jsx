@@ -15,7 +15,7 @@ import {
 import { DefaultLayout } from '../../layouts/user';
 import ItemDetail from '../../components/item-detail';
 import CategoryProductList from '../../components/category-product-list';
-import VerifyEmail from '../../pages/user/verify-email';
+import VerifyEmail from '../../pages/verify-email';
 
 const publicRoutes = [
   { path: '/', element: <Home />, layout: DefaultLayout },
